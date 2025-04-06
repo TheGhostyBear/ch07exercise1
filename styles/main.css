@@ -71,13 +71,17 @@ header {
 /* the styles for the navbar */
 .navbar {
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
 	& li {
 		flex-basis: 20%;
+		text-align: center;
 	}
 	background-color: var(--accent-color);
 	& a {
+		margin-top: 0px;
+		margin-left: 1px;
+		margin-right: 1px;
+		margin-bottom: 2px;
 		color: white;
 		text-decoration: none;
 		padding: 1em 0;
