@@ -64,6 +64,16 @@ header {
 }
 
 /* the styles for the main content */
+
+/* the styles for the navbar */
+navbar {
+	display: flex;
+	flex-wrap: wrap;
+	& li {
+		flex-basis: 20%;
+	}
+}
+
 main {
 	display: flex;
 	clear: left;
