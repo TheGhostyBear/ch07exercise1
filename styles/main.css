@@ -94,6 +94,11 @@ header {
 		background-color: var(--midcolor);
 		color: var(--dark-color);
 	}
+	& ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
 }
 
 main {
