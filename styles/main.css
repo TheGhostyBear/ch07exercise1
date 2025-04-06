@@ -101,6 +101,37 @@ header {
 	color: var(--dark-color);
 }
 
+/* Submenu styles */
+.navbar li:has(.submenu) {
+    position: relative;
+}
+
+.navbar li:has(.submenu) small {
+    margin-left: 0.5em;
+}
+
+.navbar li:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--accent-color);
+    z-index: 1;
+}
+
+.submenu li {
+    flex-basis: 100%;
+}
+
+.submenu a {
+    padding: 0.5em;
+}
+
 main {
 	display: flex;
 	clear: left;
