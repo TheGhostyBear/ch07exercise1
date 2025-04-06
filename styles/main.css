@@ -111,13 +111,14 @@ header {
 }
 
 .navbar li:hover .submenu {
-    display: block;
+    display: block;	.navbar > ul {
+		display: flex;
+	}
 }
 
 .submenu {
     display: none;
     position: absolute;
-    top: 100%;
     left: 0;
     right: 0;
     background-color: var(--accent-color);
