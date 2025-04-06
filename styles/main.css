@@ -116,6 +116,10 @@ header {
 	}
 }
 
+.navbar > ul {
+    display: flex;
+}
+
 .submenu {
     display: none;
     position: absolute;
