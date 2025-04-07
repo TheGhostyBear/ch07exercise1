@@ -110,7 +110,7 @@ header {
 }
 
 .menu li:hover .submenu {
-    display: block;
+    display: block !important;
 }
 
 .submenu {
@@ -120,6 +120,7 @@ header {
     background-color: var(--accent-color);
     color: var(--light-color);
     display: none;
+    z-index: 100;
 }
 
 .submenu > li a {
