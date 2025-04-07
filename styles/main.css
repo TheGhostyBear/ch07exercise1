@@ -100,32 +100,38 @@ header {
 	background-color: var(--midcolor);
 	color: var(--dark-color);
 }
-
 /* Submenu styles */
-.navbar li:has(.submenu) {
+.menu li:has(.submenu) {
     position: relative;
 }
 
-.navbar li:has(.submenu) small {
+.menu li:has(.submenu) small {
     margin-left: 0.5em;
 }
 
-.navbar li:hover .submenu {
+.menu li:hover .submenu {
     display: block;
 }
 
-.navbar > ul {
-    display: flex;
-}
-
 .submenu {
-    display: none;
     position: absolute;
     left: 0;
     right: 0;
     background-color: var(--accent-color);
-    color: var(--light-color);
-    z-index: 1;
+    color: var(--light);
+    display: none;
+}
+
+.submenu > li a {
+    margin: 0 2px 2px;
+}
+
+.menu > li:first-child a {
+    margin-left: 0;
+}
+
+.menu > li:last-child a {
+    margin-right: 0;
 }
 
 main {
