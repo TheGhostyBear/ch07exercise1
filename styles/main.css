@@ -69,6 +69,9 @@ header {
 /* the styles for the main content */
 
 /* the styles for the navbar */
+
+#nav_menu ul li:hover > ul { display: block; }
+
 .menu {
 	background-color: var(--accent-color);
 }
