@@ -109,8 +109,8 @@ header {
     margin-left: 0.5em;
 }
 
-.menu li:hover .submenu {
-    display: block !important;
+.menu li:hover > .submenu {
+	display: block;
 }
 
 .submenu {
