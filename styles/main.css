@@ -111,9 +111,7 @@ header {
 }
 
 .navbar li:hover .submenu {
-    display: block;	.navbar > ul {
-		display: flex;
-	}
+    display: block;
 }
 
 .navbar > ul {
@@ -128,14 +126,6 @@ header {
     background-color: var(--accent-color);
     color: var(--light-color);
     z-index: 1;
-}
-
-.submenu li {
-    flex-basis: 100%;
-}
-
-.submenu a {
-    padding: 0.5em;
 }
 
 main {
